@@ -34,7 +34,7 @@ El proyecto incluye un script de automatización en PowerShell que verifica las 
 
 3. El ejecutable compilado junto con los scripts necesarios aparecerá en la carpeta dist/.
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 launcher.py: Script principal que genera la interfaz gráfica y coordina la ejecución.
 
 disable.py: Script que aplica las políticas de seguridad en el registro y servicios para bloquear USBs.
@@ -45,5 +45,5 @@ build.ps1: Script de automatización para generar el .exe final.
 
 usb.ico: Icono de la aplicación.
 
-⚠️ Advertencia
+## ⚠️ Advertencia
 Esta herramienta realiza modificaciones en el Registro de Windows y en los Servicios del Sistema. Se recomienda reiniciar el equipo después de aplicar o revertir los cambios para asegurar que el sistema operativo asimile correctamente las nuevas directivas de montaje. Úsalo bajo tu propia responsabilidad.
